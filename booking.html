@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book a visit — Scarlet Rox</title>
+<meta name="description" content="Request an appointment at Scarlet Rox, 63 East Center Street, Moab UT.">
+<meta property="og:title" content="Book a visit — Scarlet Rox">
+<meta property="og:description" content="Request an appointment at Scarlet Rox, 63 East Center Street, Moab UT.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+<div class="wrap head-in">
+<a class="brand" href="index.html" aria-label="Scarlet Rox Salon and Lash Works LLC home"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="none" stroke="#a63f1d" stroke-width="3"/><path d="M12 36 L12 26 Q12 14 24 14 Q36 14 36 26 L36 36" fill="none" stroke="#221511" stroke-width="3.5" stroke-linecap="round"/><circle cx="24" cy="30" r="4.5" fill="#a63f1d"/></svg>
+<span class="brand-name">Scarlet Rox<small>Salon &amp; Lash Works</small></span></a>
+<button class="burger" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+<nav class="nav" aria-label="Primary"><a href="services.html">Services</a><a href="hair.html">Hair</a><a href="lashes.html">Lashes</a><a href="nails.html">Nails</a><a href="gallery.html">Gallery</a><a href="reviews.html">Reviews</a><a class="btn" href="booking.html">Book a visit</a></nav>
+<a class="btn head-cta" href="booking.html">Book a visit</a>
+</div>
+</header>
+<main id="main">
+
+<div class="wrap"><div class="page-hero rv">
+<span class="crumb"><a href="index.html">Home</a> / Booking</span>
+<h1>Book <em>your</em> visit.</h1>
+<p class="lede">Three steps, under a minute. This concept form shows the flow — the live site would confirm your slot by text or call.</p>
+</div>
+<div class="book-steps rv">
+<div class="step"><span class="label">Step 1</span><p>Pick your service and a preferred day below.</p></div>
+<div class="step"><span class="label">Step 2</span><p>We confirm your slot by phone or text — a real person, not a robot.</p></div>
+<div class="step"><span class="label">Step 3</span><p>Arrive, consult, relax. Your stylist handles the rest.</p></div>
+</div>
+<div class="two-col">
+<div class="rv">
+<form class="book" id="bookform" novalidate>
+<div class="field"><label for="b-name">Your name</label>
+<input id="b-name" name="name" type="text" autocomplete="name" data-need required>
+<span class="err">Please tell us your name.</span></div>
+<div class="field"><label for="b-phone">Phone number</label>
+<input id="b-phone" name="phone" type="tel" autocomplete="tel" data-need required>
+<span class="hint">So we can confirm your slot. Nothing else, ever.</span>
+<span class="err">Please add a phone number we can reach you on.</span></div>
+<div class="field"><label for="b-service">Service</label>
+<select id="b-service" name="service" data-need required>
+<option value="">Choose a service&hellip;</option>
+<option>Hair — cut</option><option>Hair — colour</option><option>Hair — styling / event</option>
+<option>Lashes — full set</option><option>Lashes — fill</option><option>Lashes — lift &amp; tint</option>
+<option>Nails — manicure</option><option>Nails — pedicure</option><option>Nails — nail art</option>
+<option>Not sure yet — advise me</option>
+</select><span class="err">Please choose a service (or "advise me").</span></div>
+<div class="field"><label for="b-day">Preferred day</label>
+<input id="b-day" name="day" type="text" placeholder="e.g. Thursday afternoon" data-need required>
+<span class="err">Please suggest a day that suits you.</span></div>
+<div class="field"><label for="b-notes">Anything we should know? <span style="font-weight:400;color:var(--faint)">(optional)</span></label>
+<textarea id="b-notes" name="notes" rows="3" placeholder="Allergies, inspiration, timing&hellip;"></textarea></div>
+<div class="field">
+<div class="consent">
+<input type="checkbox" id="b-consent" data-need required>
+<label for="b-consent">I agree the salon may contact me about this booking request. My details are used only to arrange the visit — never shared, never marketed. <a href="privacy.html">Privacy policy</a></label>
+</div>
+<span class="err">Please tick the consent box so we can contact you.</span>
+</div>
+<button class="btn" type="submit">Request my appointment</button>
+</form>
+<div class="form-ok" id="bookok" role="status">
+<h3>Request received — thank you.</h3>
+<p><strong>Demo note:</strong> this concept form doesn't send anywhere yet. On the live site, your request would go straight to the salon, and a real person would confirm your slot by phone or text — usually the same day.</p>
+<p>In the meantime, the fastest way to book is to call <a href="tel:+14352608732">+1 435-260-8732</a>.</p>
+</div>
+</div>
+<div class="rv">
+<span class="eyebrow">Visit us</span>
+<h2 style="margin:14px 0">Find the salon.</h2>
+<address style="font-style:normal;font-size:17px;line-height:1.8;margin-bottom:20px">
+<strong>Scarlet Rox Salon and Lash Works LLC</strong><br>
+63 East Center Street, Moab, UT 84532<br>
+<a href="tel:+14352608732">+1 435-260-8732</a>
+</address>
+<table class="hours-table">
+<caption class="label" style="text-align:left;margin-bottom:8px">Hours <span class="badge-sample">Sample</span></caption>
+<tr><th scope="row">Tue – Fri</th><td>9:00a – 6:00p</td></tr>
+<tr><th scope="row">Saturday</th><td>9:00a – 4:00p</td></tr>
+<tr><th scope="row">Sun – Mon</th><td>Closed</td></tr>
+</table>
+<p style="font-size:14.5px;color:var(--faint)">Sample hours — the salon confirms real opening times by phone.</p>
+<div class="sample-note" style="margin-top:24px"><strong>About booking today:</strong> the salon currently takes bookings through its Vagaro profile. This concept site demonstrates what an in-house booking flow would feel like — the live site would connect to the salon's real calendar.</div>
+</div>
+</div>
+</div>
+<section class="section" style="padding-top:0"><div class="wrap"><div class="closing rv">
+<span class="label">Ready when you are</span>
+<h2>Rather just call?</h2>
+<p>+1 435-260-8732 — a real person answers during salon hours.</p>
+<div class="btn-row">
+<a class="btn" href="booking.html">Book a visit</a>
+<a class="btn light" href="tel:+14352608732">Call +1 435-260-8732</a>
+</div></div></div></section>
+</main>
+<footer>
+<div class="wrap">
+<div class="foot-grid">
+<div>
+<div class="foot-brand">Scarlet Rox</div>
+<address><span data-srx="fullAddress">63 East Center Street, Moab, UT 84532</span><br>
+<a href="tel:+14352608732" data-srx="phoneHref" style="color:var(--on-dark)"><span data-srx="phone">+1 435-260-8732</span></a></address>
+</div>
+<div><h4>Visit</h4><a href="services.html">All services</a><a href="hair.html">Hair studio</a><a href="lashes.html">Lash studio</a><a href="nails.html">Nails</a><a href="pricing.html">Pricing</a><a href="team.html">About & team</a></div>
+<div><h4>More</h4><a href="gallery.html">Gallery</a><a href="reviews.html">Reviews</a><a href="booking.html">Book a visit</a></div>
+<div><h4>Legal</h4><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms</a></div>
+</div>
+<div class="foot-base">
+<span>Concept proposal built by <a href="https://tiyandegital.com">Tiyan Digital</a> for Scarlet Rox Salon and Lash Works LLC. All services, prices and hours shown are samples.</span>
+<span>Imagery is original art made for this concept — no client photos yet.</span>
+</div>
+</div>
+</footer>
+<div class="cookie-bar" id="cookiebar" role="dialog" aria-label="Cookie notice">
+<p>This concept demo sets no cookies of its own. A live site would explain any analytics here. <a href="privacy.html">Privacy policy</a></p>
+<button class="btn light" id="cookie-accept">Got it</button>
+<button class="btn ghost" id="cookie-decline">Decline</button>
+</div>
+<script src="assets/site.js" defer></script>
+</body>
+</html>
